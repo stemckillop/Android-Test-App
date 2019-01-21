@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_actor"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/detail_actor_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/person_identity2" />
+
+    <TextView
+        android:id="@+id/detail_actor_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/detail_actor_age"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="50dp"
+        android:text="TextView" />
+
+</RelativeLayout>
